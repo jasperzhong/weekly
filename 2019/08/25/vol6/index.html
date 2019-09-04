@@ -1,0 +1,33 @@
+<!DOCTYPE html><html><head><meta name="generator" content="Hexo 3.9.0"><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description"><title>Weekly Feed Vol.6 | Yuchen's Weekly</title><link rel="stylesheet" type="text/css" href="/css/normalize.css"><link rel="stylesheet" type="text/css" href="/css/highlight.css"><link rel="stylesheet" type="text/css" href="/css/very-simple.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"></head><body><!-- include the sidebar--><!-- include ./includes/sidebar.jade--><!-- Blog title and subtitle--><header><div class="container header"><a id="logo" href="/." class="title">Yuchen's Weekly</a><span class="subtitle"></span><label id="toggle-menu" for="menu" onclick><i class="fa fa-bars"></i></label></div></header><!-- use checkbox hack for toggle nav-bar on small screens--><input id="menu" type="checkbox"><!-- Navigation Links--><nav id="nav"><div class="container"><a href="/" class="sidebar-nav-item active">Home</a><a href="/archives" class="sidebar-nav-item">Archives</a><a href="/about" class="sidebar-nav-item">About</a></div></nav><div id="header-margin-bar"></div><!-- gallery that comes before the header--><div class="wrapper"><div class="container post-header"><h1>Weekly Feed Vol.6</h1></div></div><div class="wrapper"><div class="container meta"><div class="post-time">2019-08-25</div></div></div><article><div class="container post"><p>旷视上市、RAdam、gpt2开源large模型</p>
+<h1 id="News"><a href="#News" class="headerlink" title="News"></a>News</h1><h2 id="Invest"><a href="#Invest" class="headerlink" title="Invest"></a>Invest</h2><ul>
+<li><p><strong><a href="https://www.reuters.com/article/megvii-ipo/chinese-ai-start-up-megvii-files-for-hong-kong-ipo-of-at-least-500-mln-idUSL5N25M06M" target="_blank" rel="noopener">Chinese AI start-up Megvii files for Hong Kong IPO of at least $500 mln</a></strong></p>
+<p>  几个月前就看到消息说要上市，当时还没有确定是香港还是纽约. 这应该是全球来看第一家上市的独角兽AI公司. 这意味着什么呢？ 现在绝大多数AI公司还在通过吹泡泡，讲故事来获得融资. 一家公司打算上市，意味着这家公司打算实打实的走商业化盈利了. 等大潮退去，那些没有找到商业模式的公司该倒闭的倒闭，破产的破产. 但是落地前景依然不明朗，赛道太细了，这不是以前跑马圈地的时代了. 会不会有其他公司跟从上市(例如商汤)，拭目以待.</p>
+</li>
+</ul>
+<h2 id="Open-source"><a href="#Open-source" class="headerlink" title="Open source"></a>Open source</h2><ul>
+<li><p><strong><a href="https://github.com/LiyuanLucasLiu/RAdam" target="_blank" rel="noopener">RAdam</a></strong></p>
+<p>  最近比较火的一个optimizer. 没仔细看.</p>
+</li>
+<li><p><strong><a href="https://github.com/openai/gpt-2" target="_blank" rel="noopener">gpt-2</a></strong></p>
+<p>  repo是老repo了. 主要是这几天放了一个774MB的模型. 还是不给终极模型，没意思.</p>
+</li>
+</ul>
+<h1 id="Post"><a href="#Post" class="headerlink" title="Post"></a>Post</h1><ul>
+<li><p><strong><a href="https://www.reddit.com/r/MachineLearning/comments/cvcbu6/d_why_is_pytorch_as_fast_as_and_sometimes_faster/" target="_blank" rel="noopener">Why is PyTorch as fast as (and sometimes faster than) TensorFlow?</a></strong></p>
+<p>  这的确是一个非常值得讨论的问题. 直觉来讲，tensorflow应该会更快些，因为静态图能做优化，而pytorch执行的时候是不知道下一条指令是什么. 但是实际在各种benchmarks上二者性能基本差不多. 下面的回答主要认为是因为反正都是异步在GPU上执行，执行计算的时间占了大头，所以python那点overhead不算什么. 我比较同意这个说法. </p>
+</li>
+<li><p><strong><a href="https://groups.google.com/forum/#!msg/comp.os.minix/dlNtH7RRrGA/SwRavCzVE7gJ" target="_blank" rel="noopener">Today, 28 years ago Linus Torvalds announced Linux on comp.os.minix.</a></strong></p>
+<p>  历史性的邮件. 为什么Linus Torvalds 没有获得图灵奖?</p>
+<blockquote>
+<p>just a hobby, won’t be big and professional like gnu</p>
+</blockquote>
+<p>  一个hobby，改变了世界. 佩服.</p>
+</li>
+<li><p><strong><a href="https://medium.com/@lessw/new-deep-learning-optimizer-ranger-synergistic-combination-of-radam-lookahead-for-the-best-of-2dc83f79a48d" target="_blank" rel="noopener">New Deep Learning Optimizer, Ranger: Synergistic combination of RAdam + LookAhead for the best of both.</a></strong></p>
+<p>最近新的optimizer一览. 近期文章挺多，突然引起了不少的关注. 有趣.</p>
+</li>
+</ul>
+</div><!-- comment system--><div class="container"><hr></div></article><footer id="footer"><div class="container"><div class="bar"><div class="social"><a href="/atom.xml" target="_blank"><i class="fa fa-rss"></i></a></div><div class="footer">© 2019 <a href="/" rel="nofollow">Yuchen Zhong</a>. Powered by <a rel="nofollow" target="_blank" href="https://hexo.io">Hexo</a>. Theme <a target="_blank" href="https://github.com/lotabout/very-simple">very-simple</a>.</div></div></div></footer><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.css"><script src="//cdn.bootcss.com/jquery/2.0.3/jquery.min.js"></script><script src="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.pack.js"></script><script>$(document).ready(function() {
+    $(".fancybox").fancybox();
+});
+</script></body></html>
